@@ -108,4 +108,5 @@ void StockWindow::on_pushButton_3_clicked()
     this->hide();
     so=new SortieWindow(this);
     so->show();
+    //ui->pushButton_3->hide();
 }

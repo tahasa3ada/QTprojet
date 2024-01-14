@@ -58,7 +58,7 @@ void ProduitWindow::on_pushButton_2_clicked()
                 insertQuery.bindValue(":quantite", q);
                 insertQuery.bindValue(":idfourni",cdf);
 
-ui->label_10->setText("PRODUIT BIEN AJOUTE");
+                ui->label_10->setText("PRODUIT BIEN AJOUTE");
                 // Check if the query is executed successfully
                 if (insertQuery.exec())
                 {

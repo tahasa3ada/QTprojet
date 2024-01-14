@@ -6,6 +6,8 @@
 #include"produitwindow.h"
 #include "fournisserwindow.h"
 #include "sortiewindow.h"
+#include"historiquesortie.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -25,12 +27,15 @@ private slots:
 
     void on_pushButton_3_clicked();
 
+    void on_pushButton_4_clicked();
+
 private:
     Ui::MainWindow *ui;
     StockWindow *st;
     ProduitWindow *pr;
     FournisserWindow *fr;
     SortieWindow *so;
+    historiquesortie *his;
 };
 
 #endif // MAINWINDOW_H

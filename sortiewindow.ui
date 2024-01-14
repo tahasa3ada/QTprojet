@@ -47,7 +47,7 @@
      <item row="2" column="0">
       <widget class="QLabel" name="label_7">
        <property name="text">
-        <string>prix</string>
+        <string>PRIX SORTIE</string>
        </property>
       </widget>
      </item>
@@ -59,7 +59,7 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>160</x>
+      <x>240</x>
       <y>150</y>
       <width>93</width>
       <height>28</height>
@@ -100,7 +100,7 @@
      <rect>
       <x>20</x>
       <y>200</y>
-      <width>61</width>
+      <width>211</width>
       <height>16</height>
      </rect>
     </property>
@@ -119,6 +119,19 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>310</y>
+      <width>151</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>CONFIRMER</string>
     </property>
    </widget>
   </widget>

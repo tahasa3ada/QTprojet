@@ -27,6 +27,7 @@ CONFIG += c++11
 SOURCES += \
         fournisserwindow.cpp \
         fournisseur.cpp \
+        historiquesortie.cpp \
         main.cpp \
         mainwindow.cpp \
         produit.cpp \
@@ -37,6 +38,7 @@ SOURCES += \
 HEADERS += \
         fournisserwindow.h \
         fournisseur.h \
+        historiquesortie.h \
         mainwindow.h \
         produit.h \
         produitwindow.h \
@@ -45,6 +47,7 @@ HEADERS += \
 
 FORMS += \
         fournisserwindow.ui \
+        historiquesortie.ui \
         mainwindow.ui \
         produitwindow.ui \
         sortiewindow.ui \

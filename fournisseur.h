@@ -1,6 +1,7 @@
 #ifndef FOURNISSEUR_H
 #define FOURNISSEUR_H
 #include <QString>
+
 class fournisseur
 {
 public:

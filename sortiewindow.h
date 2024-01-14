@@ -20,8 +20,17 @@ private slots:
 
     void on_pushButton_clicked();
 
+    void on_SortieWindow_iconSizeChanged(const QSize &iconSize);
+
+    void on_pushButton_3_clicked();
+
+    void on_label_4_linkActivated(const QString &link);
+
 private:
     Ui::SortieWindow *ui;
+    int idprod;  // Variable à passer entre les boutons
+    int qtsortie;
+    float prixsortie;
 
 };
 
